@@ -7,7 +7,7 @@
 .header{
     display: flex;
     justify-content: space-between;
-    margin: 10px 200px;
+    margin: 50px 200px;
     font-size: 20px;
 
 }
@@ -29,6 +29,10 @@
     color: gray;
 }
 
+.avatar{
+    margin-right: 20px;
+}
+
 .img1{
     margin-right: 40px;
     align-items: center;
@@ -40,9 +44,9 @@
 }
 
 hr{
-    width: 1550px;
+    width: 1500px;
     margin-left: 190px;
-    height: 0.5px;
+    height: 0.1px;
 }
 
 .section1{
@@ -60,9 +64,9 @@ hr{
 
 .sneaker{
     margin-left: 200px;
-    max-width: 500px;
+    max-width: 600px;
     margin-top: 70px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .sc{
@@ -120,13 +124,13 @@ hr{
     width: 150px;
     height: 42px;
     border-radius: 5px;
-    padding: 10px 10px 10px 50px;
-    margin-top: 5px;
+    padding: 6px 10px 10px 50px;
+    margin-bottom: 2px;
 }
 
 .span1{
     color: orange;
-    margin-left: -35px;
+    margin-left: -40px;
     font-weight: 800;
 }
 
@@ -136,7 +140,7 @@ hr{
 
 .span2{
     color: orange;
-    margin-left: 35px;
+    margin-left: 50px;
     font-weight: 800;
 }
 
@@ -148,7 +152,7 @@ hr{
     background-color: orange;
     color: white;
     border-radius: 9px;
-    padding: 10px 10px 10px 80px;
+    padding: 7px 10px 10px 80px;
     margin-left: 10px;
 }
 
@@ -160,7 +164,7 @@ hr{
 .section2{
     padding-left: 200px;
     margin-left: 50px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .th{
@@ -168,14 +172,14 @@ hr{
     height: 100px;
     margin-left: 29px;
     position: relative;
-    top: 30px;
+    top: 20px;
 }
 
 .th1{
     border-radius: 10px;
     height: 100px;
     position: relative;
-    top: 30px;
+    top: 20px;
     border-style: solid;
     border-color: orange;
 }
