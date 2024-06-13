@@ -1,0 +1,181 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+    font-size: 20px;
+
+}
+
+
+.sneakers{
+    display: flex;
+    word-spacing: 40px;
+}
+
+.sneakers > span{
+    font-size: 30px;
+    font-weight: 900;
+    padding-right: 50px;
+}
+
+.collections{
+    padding-top: 10px;
+    color: gray;
+}
+
+.img1{
+    margin-right: 40px;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.img2{
+    height: 50px;
+}
+
+hr{
+    width: 1550px;
+    margin-left: 190px;
+    height: 0.5px;
+}
+
+.section1{
+    padding: 100px 200px 0px 200px;
+    display: flex;
+    margin-left: 50px;
+}
+
+.shoe1{
+    height: 500px;
+    width: 500px;
+    border-radius: 15px;
+
+}
+
+.sneaker{
+    margin-left: 200px;
+    max-width: 500px;
+    margin-top: 70px;
+    font-size: 20px;
+}
+
+.sc{
+    color: orange;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.fall{
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.low{
+    line-height: 30px;
+    color: gray;
+    max-width: 1500px;
+}
+
+.percent{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.fifty{
+    font-size: 20px;
+    margin-left: 20px;
+    color: orange;
+    border-style:solid;
+    border-color: transparent;
+    background-color: rgb(245, 237, 237);
+    border-radius: 5px;
+    padding: 1px;
+}
+
+.two{
+    text-decoration: dashed;
+    color: gray;
+    padding-top: 10px;
+}
+
+.cart{
+    display: flex;
+    margin-top: 20px;
+    
+}
+
+.add{
+    font-weight: 900;
+    border-style: solid;
+    background-color: rgb(244, 245, 247);
+    border-color: transparent;
+    width: 150px;
+    height: 42px;
+    border-radius: 5px;
+    padding: 10px 10px 10px 50px;
+    margin-top: 5px;
+}
+
+.span1{
+    color: orange;
+    margin-left: -35px;
+    font-weight: 800;
+}
+
+.zero{
+    padding-left: 40px;
+}
+
+.span2{
+    color: orange;
+    margin-left: 35px;
+    font-weight: 800;
+}
+
+
+.atc{
+    border-style: solid;
+    width: 300px;
+    height: 50px;
+    background-color: orange;
+    color: white;
+    border-radius: 9px;
+    padding: 10px 10px 10px 80px;
+    margin-left: 10px;
+}
+
+.atc > img{
+    margin-right: 10px;
+    height: 15px;
+}
+
+.section2{
+    padding-left: 200px;
+    margin-left: 50px;
+    margin-bottom: 200px;
+}
+
+.th{
+    border-radius: 10px;
+    height: 100px;
+    margin-left: 29px;
+    position: relative;
+    top: 30px;
+}
+
+.th1{
+    border-radius: 10px;
+    height: 100px;
+    position: relative;
+    top: 30px;
+    border-style: solid;
+    border-color: orange;
+}
