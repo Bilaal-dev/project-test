@@ -76,7 +76,7 @@ hr{
 }
 
 .fall{
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 900;
     margin-bottom: 30px;
 }
@@ -89,8 +89,8 @@ hr{
 
 .percent{
     margin-top: 30px;
-    font-size: 30px;
-    font-weight: 700;
+    font-size: 35px;
+    font-weight: 900;
 }
 
 .fifty{
@@ -101,7 +101,7 @@ hr{
     border-color: transparent;
     background-color: rgb(245, 237, 237);
     border-radius: 5px;
-    padding: 1px;
+    padding: 2px;
 }
 
 .two{
@@ -121,21 +121,21 @@ hr{
     border-style: solid;
     background-color: rgb(244, 245, 247);
     border-color: transparent;
-    width: 150px;
-    height: 42px;
+    width: 180px;
+    height: 45px;
     border-radius: 5px;
     padding: 6px 10px 10px 50px;
-    margin-bottom: 2px;
+    margin-top: 5px;
 }
 
 .span1{
     color: orange;
-    margin-left: -40px;
+    margin-left: -35px;
     font-weight: 800;
 }
 
 .zero{
-    padding-left: 40px;
+    padding-left: 60px;
 }
 
 .span2{
@@ -147,18 +147,18 @@ hr{
 
 .atc{
     border-style: solid;
-    width: 300px;
-    height: 50px;
+    width: 400px;
+    height: 55px;
     background-color: orange;
     color: white;
     border-radius: 9px;
-    padding: 7px 10px 10px 80px;
+    padding: 10px 10px 10px 125px;
     margin-left: 10px;
 }
 
 .atc > img{
     margin-right: 10px;
-    height: 15px;
+    height: 20px;
 }
 
 .section2{
@@ -172,14 +172,14 @@ hr{
     height: 100px;
     margin-left: 29px;
     position: relative;
-    top: 20px;
+    top: -10px;
 }
 
 .th1{
     border-radius: 10px;
     height: 100px;
     position: relative;
-    top: 20px;
+    top: -10px;
     border-style: solid;
     border-color: orange;
 }
