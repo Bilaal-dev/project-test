@@ -68,6 +68,7 @@ hr{
     max-width: 600px;
     margin-top: 70px;
     font-size: 25px;
+    width:auto;
 }
 
 .sc{
@@ -186,6 +187,20 @@ hr{
 }
 
 
+
+
+@media(min-width:600px){
+    .menu{
+        display:none
+    }
+}
+
+
+@media(max-width:600px){
+    .menu{
+        padding: 10px 10px 0px 20px;
+    }
+}
 @media (max-width: 720px) {
 
     *{
@@ -233,14 +248,16 @@ hr{
         width: 20px;
         height: 30px;
         margin-top: 20px;
-        margin-right: 30px;
+        margin-right: 20px;
+        margin-top: 10px;
     }
 
     .img2 {
         width: 30px;
         height: 30px;
         margin-top: 15px;
-        margin-right: 20px;
+        margin-left: 00px;
+        margin-top: 5px;
     }
 
 }
@@ -248,10 +265,8 @@ hr{
 @media (max-width: 600px) {
 
     .sneakers > span{
-        font-size: 50px;
-        margin-left: 70px;
-        display: 100%;
-
+        font-size: 30px;
+        margin-top: 2px;
     }
 
 }
@@ -262,25 +277,31 @@ hr{
     .section1{
         display: block;
         display: 100%;
-        margin-left: -00px;
+        margin-left: 0%;
     }
 
 }
 
-@media (max-width: 720px) {
+@media (max-width: 600px) {
 
     .shoe1{
-        width: 583px;
+        /*width: 583px;
         height: 400px;
         margin-left: -200px;
         border-radius: 0%;
         margin-top: -70px;
-        margin-bottom: -30px;
+        margin-bottom: -30px;*/
+
+        width: 410px;
+        height: 400px;
+        border-radius: 0%;
+        margin-left: -200px;
+        margin-top: -100px;
     }
 
 }
 
-@media (max-width: 720px) {
+@media (max-width: 600px) {
 
     hr{
         width: 400px;
@@ -289,18 +310,20 @@ hr{
 
 }
 
-@media (max-width: 720px) {
+@media (max-width: 600px) {
 
     .sneaker{
-        margin-left: -160px;
-        font-size: 20px;
-        max-width: 430px;
-        
+        margin-left: -170px;
+        font-size: 15px;
+        margin-top: 15px;
+        max-width: 500px;
+        width: 370px;
     }
 
     .fall{
-        font-size: 40px;
+        font-size: 30px;
         max-width: 900px;
+        margin-top: -10px;
     }
     
 
@@ -327,10 +350,33 @@ hr{
     @media (max-width: 600px) {
 
         .low{
-            max-width:500px;
-            margin-top: 0%;
+            max-width:1500px;
+            margin-top: -20px;
+            line-height: 20px;
+            font-size: 20px;
         }
     
+        }
+
+        @media(max-width:600px){
+            .percent{
+                font-size: 30px;
+                display: flex;
+            }
+
+            .sflex{
+                display: flex;
+            }
+
+            .two{
+                margin-top: -40px;
+                margin-left: 300px;
+                font-size: 19px
+            }
+
+            .fifty{
+                margin-left: ;
+            }
         }
 
         @media (max-width: 600px) {
@@ -340,25 +386,33 @@ hr{
             }
 
             .add{
-                width: 500px;
+                width: 360px;
                 height: 60px;
                 padding-top: 15px;
                 font-weight: 900;
             }
 
             .span2{
-                padding-left: 180px;
+                padding-left: 100px
             }
 
             .zero{
-                padding-left: 210px;
+                padding-left: 150px;
             }
+                
 
             .atc{
-                width: 505px;
+                width: 365px;
                 margin-left: -3px;
-                padding-left: 180px;
+                padding-left: 130px;
                 margin-bottom: 100px;
+                
             }
         
             }
+            
+            
+
+
+
+            
